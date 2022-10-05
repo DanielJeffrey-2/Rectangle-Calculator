@@ -1,0 +1,21 @@
+#Created by: Daniel Jeffrey
+#Created on: October 5, 2022
+#This program calculates the area of a rectangle with given values, and asks you to calculate the answer to find if your solution was correct or incorrect
+
+print('Today we are going to calculate the area of a rectangle in cm2 with your inputs.')
+h = (int(input('Enter the height of the rectangle:')))
+w = (int(input('Enter the width of the rectangle:')))
+a = (int(input('Enter your guess for the area of the rectangle:')))
+b = h * w 
+
+if a < b:
+
+  print("That was incorrect, the answer is: %d" %(b))
+
+if a > b:
+
+  print("That was incorrect, the answer is: %d" %(b))
+
+if a == b:
+
+  print("You were correct! The answer is: %d" %(b))
